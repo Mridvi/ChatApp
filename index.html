@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatterUp</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="logo.jpg" alt="">
+        <h1> ChatterUp</h1>
+    </nav>
+    <h3>Welcome to ChatterUp - where conversations come alive!</h3>
+    
+    <div class="main-container">
+        <div class="container">
+            <!-- Chat messages will appear here -->
+
+        </div>
+        
+
+    
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Type your message here...">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+
+    
+  
+    </div>
+
+                <!-- User list container positioned on the right side of the chat container -->
+                <h3 id="heading">Active users</h3>
+                <ul id="userList">
+                    
+                    
+                </ul>
+
+</body>
+</html>
